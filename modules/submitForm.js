@@ -2,7 +2,7 @@ import BookList from './classes.js';
 
 const bookList = new BookList();
 
-export default function submitForm(event) {
+const submitForm = (event) => {
   const inputTitle = document.querySelector('.title');
   const inputAuthor = document.querySelector('.author');
   event.preventDefault();
@@ -15,3 +15,5 @@ export default function submitForm(event) {
     inputAuthor.value = '';
   }
 }
+
+export default submitForm;
