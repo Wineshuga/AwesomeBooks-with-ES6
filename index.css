@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p,
+li,
+a {
+  font-family: 'Crimson Text', serif;
+}
+
+body {
+  padding: 0 0.5rem;
+}
+
+header {
+  height: 5.15rem;
+}
+
+main {
+  height: calc(100vh - 9.1rem);
+}
+
+.form-sec,
+.contact,
+.hide-p {
+  display: none;
+}
+
+nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav {
+  border: 2px solid;
+  margin: 0.3rem auto;
+  padding: 0.5rem;
+  max-width: 75rem;
+  text-align: center;
+}
+
+nav > h1 {
+  padding-bottom: 0.5rem;
+}
+
+.list-btn {
+  color: blue;
+}
+
+.date {
+  text-align: right;
+}
+
+section {
+  max-width: 20rem;
+  margin: auto;
+}
+
+.book-list-sec,
+.form-sec {
+  text-align: center;
+  margin: 1rem auto;
+}
+
+.book-list {
+  margin-top: 0.5rem;
+}
+
+.book-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.book-div:nth-child(odd) {
+  background-color: #ddd;
+}
+
+.no-book {
+  margin-top: 1rem;
+}
+
+input[type=text] {
+  display: block;
+  margin: 1rem 0 1.5rem;
+  padding: 0.3rem;
+  width: 100%;
+}
+
+.add-btn {
+  float: right;
+}
+
+.add-btn,
+button {
+  font-weight: 700;
+  padding: 0.3rem;
+}
+
+.contact {
+  max-width: 40rem;
+}
+
+.contact > h2 {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.contact ul {
+  margin: 0.5rem 0 0.5rem 2.5rem;
+}
+
+footer {
+  border: 2px solid;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 2.6rem;
+}
+
+@media (min-width: 601px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav > h1 {
+    padding-bottom: 0;
+  }
+
+  nav ul {
+    gap: 2rem;
+    font-size: large;
+  }
+
+  .list-btn,
+  .add-new-btn {
+    border-right: 2px solid black;
+    padding-right: 2rem;
+  }
+
+  .contact > p,
+  #form,
+  .book-list,
+  .no-book {
+    margin-top: 3rem;
+  }
+
+  section {
+    max-width: 40rem;
+  }
+
+  .form-sec {
+    width: 20rem;
+  }
+
+  .contact {
+    width: fit-content;
+  }
+}
