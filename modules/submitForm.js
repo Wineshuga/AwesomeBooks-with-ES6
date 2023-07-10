@@ -14,6 +14,6 @@ const submitForm = (event) => {
     inputTitle.value = '';
     inputAuthor.value = '';
   }
-}
+};
 
 export default submitForm;

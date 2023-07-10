@@ -13,6 +13,6 @@ const showElement = (element) => {
   listBtn.style.color = (element === userBooks) ? 'blue' : 'black';
   addNewBtn.style.color = (element === formPage) ? 'blue' : 'black';
   contactBtn.style.color = (element === contactPage) ? 'blue' : 'black';
-}
+};
 
 export default showElement;
