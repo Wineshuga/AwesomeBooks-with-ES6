@@ -39,7 +39,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://wineshuga.github.io/AwesomeBooks-with-ES6/)
+- [Live Demo Link](https://wineshuga.github.io/AwesomeBooks/)
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
